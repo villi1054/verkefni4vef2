@@ -1,0 +1,28 @@
+body{
+	max-width: 50em;
+	margin: 0 auto;
+	font-family: sans-serif;
+	border: 1px solid red;
+}
+
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.haus, .fotur{
+	border: 1px solid green;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.row section{
+	border: 0;
+}
+
+section h3{
+	text-align: center;
+}
